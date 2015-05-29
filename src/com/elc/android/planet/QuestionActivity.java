@@ -30,7 +30,8 @@ public class QuestionActivity extends Activity {
 
 	private Question currentQ;
 	private GamePlay currentGame;
-//uploaded in github
+//uploaded in github in second time
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
