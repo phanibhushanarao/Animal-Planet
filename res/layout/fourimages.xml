@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Question"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <ImageButton 
+        android:id="@+id/image1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/lion"
+        android:layout_marginLeft="30dp"
+        />
+    
+    <ImageButton 
+        android:id="@+id/image2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/elephant"
+        android:layout_toRightOf="@+id/image1"
+        />
+    
+     <ImageButton 
+        android:id="@+id/image3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/image1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cheetah"
+        android:layout_marginLeft="30dp"
+        />
+    
+    <ImageButton 
+        android:id="@+id/image4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/image2"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dolphin"
+        android:layout_toRightOf="@+id/image3"
+        />
+
+  
+
+    
+
+</RelativeLayout>
+</ScrollView>

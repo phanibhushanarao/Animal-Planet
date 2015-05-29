@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elc.android.planet"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    <application 
+        android:icon="@drawable/chuck_icon_bg" 
+        android:label="@string/app_name" 
+        android:name=".QuizApplication">
+        
+	<activity android:name=".SplashActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".QuestionActivity" />
+		<activity android:name=".RulesActivity" />
+		<activity android:name=".EndgameActivity" />
+		<activity android:name=".SettingsActivity" />
+		<activity android:name=".AnswersActivity" />
+		<activity android:name=".OneImage"/>
+		<activity android:name=".FourImages"/>
+    </application>
+ </manifest>

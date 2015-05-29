@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SplashActivity!</string>
+    <string name="app_name">AnimalPlanet - The Quiz</string>
+    <string name="rules">Welcome to the AnimalPlanet quiz  
+    This quiz is based on Animals. If this is the first time playing
+    you should go to the "Settings" option to decide which difficulty setting ,selecting  no of Questions and Game type you think you can master.. 
+    </string>
+    <string name="spinner1_prompt"> Level </string>
+ 	<string name="spinner2_prompt"> Game Type</string>
+    <string name="spinner3_prompt"> No of Questions </string>
+    <string-array name="game_level">
+        <item>High</item> 
+        <item>low</item>
+    </string-array>
+   
+    <string-array name="game_type">
+       <item>One Image Type</item>
+        <item>Four Images Type</item> 
+     </string-array>
+    <string-array name="noofquestions">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+     </string-array>
+</resources>
